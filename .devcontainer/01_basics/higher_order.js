@@ -33,3 +33,11 @@ const data = [
 console.log(data.filter((obj)=>{
     return obj.Director === "SS-Rajamouli" && obj.genre === "Warioir"
 }))
+
+let score= [9,8,7,9,8,5,7]
+
+let sort = score.reduce((Active, num)=>{
+    return Active + num
+}, 5)
+
+console.log(sort)
